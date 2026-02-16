@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #bf4bec, #8d55912e);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    background: #fff;
+    width: 500px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.balance {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.income-box {
+    background: #d4edda;
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.expense-box {
+    background: #f8d7da;
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #4e73df;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2e59d9;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f8f9fc;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li.plus {
+    border-right: 6px solid green;
+}
+
+li.minus {
+    border-right: 6px solid red;
+}
